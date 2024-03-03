@@ -1,0 +1,99 @@
+body {
+  background-image: url(../images/garage.jpg);
+  /* BRON ACHTERGROND: https://demo.6storagegates.com/gallery/ */
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 710px;
+}
+
+header {
+  width: 60%;
+  float: left;
+  text-align: center;
+  position: absolute;
+  border: solid 4px;
+  font-family: sans-serif;
+  border-radius: 25px;
+  background-color: #778899;
+}
+
+p {
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+header p {
+  margin-bottom: 15px;
+}
+
+section {
+  float: right;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #778899;
+  border-radius: 25px;
+  border: groove 4px #000000;
+  padding: 20px;
+  width: 500px;
+}
+
+button {
+  width: 80px;
+  height: 40px;
+  display: inline-block;
+  border-radius: 10px;
+  background-color: #F8F8FF;
+  color: #000000;
+  margin-right: 20px;
+  margin-bottom: -2px;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+img {
+  width: 60%;
+  float: left;
+  margin-top: 250px;
+  margin-bottom: 50px;
+  position: absolute;
+}
+
+.random {
+  height: 80px;
+  text-align: center;
+  width: 100px;
+  margin-top: 625px;
+  float: right;
+  position: absolute;
+}
+
+.ramen {
+  width: 80px;
+}
+
+#rood {
+  background-color: #AA0505;
+}
+
+#groen {
+  background-color: #036B32;
+}
+
+#blauw {
+  background-color: #0D0DCC;
+}
+
+#wit {
+  background-color: #FFFFFF;
+}
+
+#zwart {
+  background-color: #000000;
+}
